@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Rosee Bakery</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="home">
+    <!-- ローダー -->
+
+    <div class="preloader">
+      <div class="loader-logo">
+        <div class="img-container">
+          <img src="./img/loader.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- サイトの内容 -->
+    <div class="site-content">
+      <header class="intro-header">
+        <nav class="navbar">
+          <div class="navbar-container">
+            <a href="index.html"><h1><span class="logo-container"></span>Rosee Bakery</h1></a>
+            <ul class="menu">
+              <li class="service">
+                サービス
+                <ul class="sub-items">
+                  <li><a href="services.html">サービス一覧</a></li>
+                  <li><a href="lesson.html">パン・ケーキ教室</a></li>
+                  <li><a href="#">限定販売</a></li>
+                </ul>
+              </li>
+              <li><a href="#">ブログ</a></li>
+              <li><a href="#">会社概要</a></li>
+            </ul>
+            <div class="contact-form">
+              <p>
+                <span><i class="fas fa-phone"></i></span> 03-5242-3434
+              </p>
+              <button type="button" class="primary-btn" onclick="openForm()">
+                お問い合わせ
+              </button>
+            </div>
+          </div>
+          <div class="navbar-sp">
+            <h1><span class="logo-container"></span>Rosee Bakery</h1>
+            <div class="hamburger-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="sp-menu-content hide">
+              <ul class="menu">
+                <li class="service" id="sp-service">
+                  サービス<i class="fas fa-caret-down"></i>
+                  <ul class="sub-items" id="sub-items">
+                    <li><a href="services.html">サービス一覧</a></li>
+                    <li><a href="lesson.html">パン・ケーキ教</a>室</li>
+                    <li><a href="#">限定販売</a></li>
+                  </ul>
+                </li>
+                <li class="sp-menu-item"><a href="#">ブログ</a></li>
+                <li class="sp-menu-item"><a href="#">会社概要</a></li>
+              </ul>
+              <div class="contact-form">
+                <p>
+                  <span><i class="fas fa-phone"></i></span>03-5242-3434
+                </p>
+                <button type="button" class="primary-btn" onclick="openForm()">
+                  お問い合わせ
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="title-area">
+        <h2>口を楽しんで、<br />味を尽くす</h2>
+        <div class="btn-container">
+          <button class="primary-btn">詳細を見る</button
+          ><button class="secondary-btn">発注する</button>
+        </div>
+      </div>
+
+      <main>
+        <section class="appeal wrapper">
+          <h2>口を楽しんで、味を尽くす</h2>
+
+          <div class="cards">
+            <div class="cards-card scrollama">
+              <div class="cards-card--img">
+                <img src="./img/making-2.jpg" alt="making" />
+              </div>
+              <div class="cards-card--text">
+                <h3>全部国内生産の原材料使用</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia quos assumenda accusantium reprehenderit optio vel
+                  repellendus doloremque? Dolore dolores dolorem odit molestiae
+                  autem.
+                </p>
+              </div>
+            </div>
+            <div class="cards-card handmade scrollama">
+              <div class="cards-card--img">
+                <img src="./img/making-1.jpg" alt="making" />
+              </div>
+              <div class="cards-card--text">
+                <h3>人力で作り出す</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia quos assumenda accusantium reprehenderit optio vel
+                  repellendus doloremque? Dolore dolores dolorem odit molestiae
+                  autem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="product-cards">
+          <a href="/">
+            <div class="product-cards--card">
+              <h4>予約販売</h4>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  cumque incidunt quibusdam? Magnam, fugit ipsam?
+                </p>
+                <a href="services.html"><button class="primary-btn">詳細を見る</button></a>
+              </div>
+            </div>
+          </a>
+          <a href="/">
+            <div class="product-cards--card">
+              <h4>パン・ケーキ教室</h4>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  cumque incidunt quibusdam? Magnam, fugit ipsam?
+                </p>
+                <a href="lesson.html"><button class="primary-btn">詳細を見る</button></a>
+              </div>
+            </div>
+          </a>
+          <a href="/">
+            <div class="product-cards--card">
+              <h4>限定販売</h4>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  cumque incidunt quibusdam? Magnam, fugit ipsam?
+                </p>
+               <a href="#company"><button class="primary-btn">詳細を見る</button></a>
+              </div>
+            </div>
+          </a>
+        </section>
+
+        <section class="company" id="company">
+          <div class="content">
+            <h4>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt,
+              in?
+            </h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              consequatur laborum, sed ipsum repellendus officiis delectus
+              aspernatur fugit quod eius.
+            </p>
+            <button class="primary-btn">会社概要</button>
+          </div>
+        </section>
+      </main>
+     
+      <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-content-brand">
+          <a href="index.html"
+            ><img src="./img/Logo no bg.png" alt="logo" class="logo"
+          /></a>
+          <div class="social-media">
+            <a href="https://facebool.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p><i class="fas fa-phone"></i>03-5242-3434</p>
+          <button type="button" class="primary-btn" onclick="openForm()">
+            お問い合わせ
+          </button>
+        </div>
+        <div class="footer-content-menu">
+          <h5>サービス</h5>
+          <ul>
+            <a href="services.html"><li>受注販売</li></a>
+            <a href="lesson.html"><li>パン・ケーキ教室</li></a>
+            <a href="#"><li>限定販売</li></a>
+          </ul>
+        </div>
+        <div class="footer-content-delivery">
+          <h5>商品配送について</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            deserunt eius ab, sit veritatis quo facilis. Minima, reprehenderit?
+            Iure, est.
+          </p>
+        </div>
+      </div>
+      <div class="policy">
+        <p>&copy; 2023 <a href="">Rosee Bakery</a> All Rights Reserved.</p>
+        <p>〒166-2866 東京都豊島区東大塚 9-29-39</p>
+        <p><a href="#">プライバシーポリシー</a> <a href="#">利用規約</a></p>
+      </div>
+    </footer>
+
+    <section class="form">
+      <div class="form-container">
+        <form action="" class="form-content">
+          <h3>お問い合わせフォーム</h3>
+          <button id="form-close-btn" type="button" onclick="closeForm()">
+            <i class="fas fa-close"></i>
+          </button>
+          <div class="input-container">
+            <div><label for="name">お名前</label> <input type="text" /></div>
+            <div><label for="tel">お電話</label> <input type="tel" /></div>
+            <div>
+              <label for="email">メール</label>
+              <input type="email" name="" id="" />
+            </div>
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="お問い合わせの内容をご入力ください。"
+            ></textarea>
+          </div>
+          <button type="submit" class="primary-btn">送信</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
