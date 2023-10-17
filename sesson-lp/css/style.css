@@ -455,8 +455,8 @@ Header
   max-width: 565px;
   max-height: 553px;
   position: absolute;
-  top: 25%;
-  right: -55%;
+  top: 10%;
+  right: -5%;
   z-index: 1;
 }
 #contact h2 {
