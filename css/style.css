@@ -195,13 +195,13 @@ main section.wrapper {
   overflow: hidden;
 }
 .product-cards--card:first-of-type {
-  background: url("../img/cake-1.jpg") no-repeat center/cover;
+  background: url("../img/cake-1.webp") no-repeat center/cover;
 }
 .product-cards--card:nth-of-type(2) {
-  background: url("../img/making.jpg") no-repeat center/cover;
+  background: url("../img/making.webp") no-repeat center/cover;
 }
 .product-cards--card:nth-of-type(3) {
-  background: url("../img/moon-cake-3.jpg") no-repeat center/cover;
+  background: url("../img/moon-cake-3.webp") no-repeat center/cover;
 }
 .product-cards--card::before {
   content: "";
@@ -254,7 +254,7 @@ main section.wrapper {
   flex-direction: column;
   justify-content: end;
   align-items: start;
-  background: url("../img/staff_cropped.jpg") no-repeat center center/cover;
+  background: url("../img/staff_cropped.webp") no-repeat center center/cover;
   color: #fcfcfc;
   padding: 0 1rem;
   overflow: none;
@@ -275,7 +275,7 @@ main section.wrapper {
 }
 
 #services .intro-header {
-  background: url("../img/cake-4.jpg") no-repeat center/cover;
+  background: url("../img/cake-4.webp") no-repeat center/cover;
 }
 #services .title-area {
   display: flex;
@@ -379,7 +379,7 @@ main section.wrapper {
 }
 
 #lesson .intro-header {
-  background: url("../img/making-4.jpg") no-repeat center/cover;
+  background: url("../img/making-4.webp") no-repeat center/cover;
 }
 #lesson .title-area {
   display: flex;
@@ -536,7 +536,7 @@ li {
   display: block;
   width: 100px;
   height: 100px;
-  background: url("../img/Logo no bg.png") no-repeat center/contain;
+  background: url("../img/Logo no bg.webp") no-repeat center/contain;
 }
 .navbar-container .menu {
   display: flex;
@@ -591,7 +591,7 @@ li {
   min-height: 100vh;
   width: 100vw;
   margin-bottom: 100px;
-  background: url("../img/bread-1.jpg") no-repeat center/cover;
+  background: url("../img/bread-1.webp") no-repeat center/cover;
 }
 
 footer {
@@ -895,7 +895,7 @@ button {
     display: block;
     width: 100px;
     height: 100px;
-    background: url("../img/Logo no bg.png") no-repeat center/contain;
+    background: url("../img/Logo no bg.webp") no-repeat center/contain;
     margin-right: 1rem;
   }
   .navbar-sp .hamburger-btn {
