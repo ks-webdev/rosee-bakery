@@ -1,3 +1,3 @@
 # rosee-bakery
 
-<a href="https://rosee-bakery.just-karie.com/seasson-lp.html">限定販売のランディングページ</a>
+<a href="https://rosee-bakery.just-karie.com/sesson-lp.html">限定販売のランディングページ</a>
