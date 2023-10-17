@@ -444,16 +444,20 @@ Header
   position: absolute;
   top: -20%;
   left: -5%;
-  z-index: -1;
+  z-index: 1;
+  max-width: 436px;
+  max-height: 522px;
 }
 #contact::after {
   content: url("../img/form-bg2.png");
   width: 80%;
   height: 80%;
+  max-width: 565px;
+  max-height: 553px;
   position: absolute;
   top: 25%;
   right: -55%;
-  z-index: -1;
+  z-index: 1;
 }
 #contact h2 {
   text-align: center;
